@@ -1,4 +1,26 @@
 *{
+
     margin: 0;
     padding: 0;
+}
+body{
+   display:flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+
+.cabecalho{
+   padding: 15px 25px;
+
+}
+
+.cartao{
+   width: 260px;
+   height: 200;
+}
+
+.cartao-imagem{
+    width: 100%;
+  
 }
