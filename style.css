@@ -27,10 +27,20 @@ main{
 
 .cartao{
    width: 260px;
-   height: 200;
+   height: 200px;
 }
 
 .cartao-imagem{
     width: 100%;
-  
+
+}
+
+.cartao-interno{
+
+   position: relative;
+
+}
+.catao-frente, .cartao-verso{
+
+   position: absolute;
 }
