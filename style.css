@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
    display:flex;
    flex-direction: column;
@@ -17,9 +18,13 @@ align-items: center;
 
 }
 
-
+section{
+   display: flex;
+   gap: 16px;
+}
 
 .cabecalho{
+   color: blanchedalmond;
    padding: 15px 25px;
    display: flex;
    justify-content: space-between;
@@ -29,6 +34,7 @@ align-items: center;
 }
 
 .cartao{
+   margin: 20px;
    width: 260px;
    height: 200px;
 }
@@ -39,7 +45,7 @@ align-items: center;
 }
 
 .cartao-interno{
-
+   
    position: relative;
   transition: trnsform 0.8s;
   transform-style: preserve-3d;
